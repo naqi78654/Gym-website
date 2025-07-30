@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Arnold Gym Website</title>
+    <!-- Link for Css -->
+    <link rel="stylesheet" href="gym.css">
+    <!-- LINK FOR FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Maven+Pro:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--  For Swipper Js Cdn Link-->
+      <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<!-- For FONT AWESOME -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  </head>
+  <body id="main">
+    <!-- Navbar creation -->
+    <nav class="navbar navbar-expand-lg sticky-top navhead">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="ryan-hoffman-wqbrxqv2Vaw-unsplash.jpg" loading="lazy" class="img-fluid navimage"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link"  data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#legacy">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+            <li class="nav-item ">
+              <a  href="#"><button class="but ms-5" id="darkmodebut">Dark</button></a>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- offcanvas coding for home section -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h2 class="offcanvas-title" id="offcanvasExampleLabel">Arnold's Gym</h2>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <img src="keyner-ordonez-4an52q1ft2o-unsplash.jpg" loading="lazy" class="img-fluid offcanvasimage">
+        <br><br>
+        "Step into Arnold's Gym — where steel meets willpower, and every rep echoes greatness."
+
+        "This isnt just a gym — its a cathedral of strength, carved in the legacy of a champion."
+        
+        "At Arnolds, the barbell doesnt lie — it reveals your hunger, your fire, your discipline."
+        
+        "Fueled by iron, sweat, and the spirit of Schwarzenegger — greatness is forged here."
+        
+        "Arnold's Gym: Where the grind is sacred, the dream is real, and every drop of sweat has a purpose."
+        
+        "Here, we dont just lift — we rise."
+  </div>
+</div>
+         
+        </div>
+       
+      </div>
+    </div>
+   <!-- OUR carousel for arnold gym -->
+    <section class="carouselsec">
+      <div class="container-fluid py-5">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="edgar-chaparro-sHfo3WOgGTU-unsplash.jpg" loading="lazy" class="d-block w-100" alt="...">
+      <div class="carousel-caption  d-block">
+        <h3>Arnold's Gym</h3>
+         <button class="but">KNOW-MORE</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="venti-views-j-Ou5YvdXFQ-unsplash.jpg"  loading="lazy" class="d-block w-100" alt="...">
+      <div class="carousel-caption  d-block">
+        <h3>Body is our Temple!</h3>
+        <button class="but">KNOW-MORE</button>
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="ryan-hoffman-Z0Z4rxXskc0-unsplash.jpg" loading="lazy" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-block">
+        <h3>Feel pain or remain the same!</h3>
+         <button class="but">KNOW-MORE</button>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      </div>
+    </section>
+    <!-- our legacy features -->
+     <section class="legacysec mt-2" id="legacy">
+      <h2 class="text-center fw-bold">Our legacy!</h2>
+      <div class="container py-5 d-flex flex-column justify-content-center align-items-center ">
+        <div class="row py-5">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 col-md-12">
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/o9zCgPtsups?si=gxDMFArRTQFiDKAX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+
+        </div>
+
+         <div class="row py-5">
+            <div class="col-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 col-md-12">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/jFk-L7Wcg0g?si=m03_8pNkj3rwbTQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+          </div>
+          
+        </div>
+
+         <div class="row py-5">
+            <div class="col-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 col-md-12">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/nAZPlvpIcI0?si=DyKzLejMpSwsqlmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+          </div>
+          
+        </div>
+         <div class="row py-5">
+            <div class="col-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 col-md-12">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Ebm4geyI0YA?si=n5BJ6ccz5xdB2IZ_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+          </div>
+          
+        </div>
+      </div>
+     </section>
+
+     <!-- our services -->
+      <section class="servicesec mt-2" id="service">
+        <h2 class="text-center fw-bold">Our services!</h2>
+        <div class="container py-5">
+          <div class="row py-5">
+            <div class="col-12 col-md-4 col-xl-4 col-xxl-4 col-lg-4 col-sm-12">
+              <div class="card" style="width:18rem">
+                 <img src="personaltraining.jpg" loading="lazy" class="img-fluid card-img-top">
+                <div class="card-body">
+                  <h2 class="fw-bold cardhead">Personal Training</h2>
+                  <p class="servicedetail"></p>
+                <button class="but servicebtn">Know More</button>
+
+                </div>
+              </div>
+
+               
+                
+            </div>
+             <div class="col-12 col-md-4 col-xl-4 col-xxl-4 col-lg-4 col-sm-12">
+              <div class="card" style="width:18rem">
+                 <img src="whey.jpg" class="img-fluid card-img-top" loading="lazy">
+                <div class="card-body">
+               
+                <h2 class="fw-bold cardhead">Supplements Selling</h2>
+                <p class="servicedetail"></p>
+                <button class="but servicebtn">Know More</button>
+                </div>
+              </div>
+              
+            </div>
+             <div class="col-12 col-md-4 col-xl-4 col-xxl-4 col-lg-4 col-sm-12">
+              <div class="card" style="width:18rem">
+                 <img src="locker.jpg" class="img-fluid card-img-top" loading="lazy">
+                <div class="card-body">
+               
+                <h2 class="fw-bold cardhead">Locker Rooms</h2>
+                <p class="servicedetail"></p>
+                <button class="but servicebtn">Know More</button>
+                </div>
+              </div>
+              
+            </div>
+
+
+          </div>
+          <div class="row py-5">
+             <div class="col-12 col-md-4 col-xl-4 col-xxl-4 col-lg-4 col-sm-12">
+              <div class="card" style="width:18rem">
+                 <img src="weight_loss.jpg" class="img-fluid card-img-top" loading="lazy">
+                <div class="card-body">
+               
+                <h2 class="fw-bold cardhead">Weight Gain/Weight Loss</h2>
+                <p class="servicedetail"></p>
+                <button class="but servicebtn">Know More</button>
+                </div>
+              </div>
+              
+            </div>
+             <div class="col-12 col-md-4 col-xl-4 col-xxl-4 col-lg-4 col-sm-12">
+              <div class="card" style="width:18rem">
+                 <img src="yoga.jpg" class="img-fluid card-img-top" loading="lazy">
+                <div class="card-body">
+               
+                <h2 class="fw-bold cardhead">Yoga</h2>
+                <p class="servicedetail"></p>
+                <button class="but servicebtn">Know More</button>
+                </div>
+              </div>
+              
+            </div>
+             <div class="col-12 col-md-4 col-xl-4 col-xxl-4 col-lg-4 col-sm-12">
+              <div class="card" style="width:18rem">
+                 <img src="gymsets.jpg" class="img-fluid card-img-top" loading="lazy">
+                <div class="card-body">
+               
+                <h2 class="fw-bold cardhead">Gym Kit Selling</h2>
+                <p class="servicedetail"></p>
+                <button class="but servicebtn">Know More</button>
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <!-- our location -->
+       <section class="locationsec mt-2" id="contact">
+        <h2 class="text-center fw-bold">Visit our Gym!</h2>
+        <div class="container py-5 d-flex justify-content-center align-items-center">
+          <div class="row py-5">
+            <div class="col-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12 col-lg-12">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.2047161335445!2d81.81974817444994!3d25.43141852217584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3985352a78113eb9%3A0xf881446b0241a276!2sArnold%20Gym!5e0!3m2!1sen!2sin!4v1752827740234!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+          </div>
+        </div>
+
+       </section>
+       <!-- protein calculator section -->
+       <section class="mt-2 proteinsec">
+        <h2 class=" text-center fw-bold">Know Your Protein-Intake!</h3>
+        <div class="container py-5 proteincont">
+          <div class="row py-5">
+            <div class="col-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12 col-lg-12">
+              <form id="proteinform" autocomplete="off">
+                <div>
+                  <label for="name" class="form-label">Name-</label>
+                  <input type="text" class="form-control" id="name" placeholder="Naqi..">
+
+                </div>
+                 <div>
+                    <label for="age" class="form-label">Age-</label>
+                  <input type="text" class="form-control" id="age" placeholder="20">
+                  
+                </div>
+                 <div>
+                    <label for="weight" class="form-label">Weight-</label>
+                  <input type="text" class="form-control" id="weight" placeholder="73">
+                  
+                </div>
+                 <div id="resultbox">
+
+                  
+                </div>
+                <button class="but mt-5" type="submit" id="proteinbtn">Check</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Coummunity section -->
+      <section class="mt-3 communitysec">
+        <h2 class="text-center">Join Us!</h2>
+        <div class="container py-5">
+          <div class="row py-5">
+            <div class="col-lg-7 col-xl-7 col-xxl-7 col-md-7 col-sm-12 col-12">
+              <h2>Why Waiting for Just Grab this Opportunity Gymrats!</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quisquam voluptatibus maxime nesciunt repellendus modi repudiandae perspiciatis ipsam necessitatibus cumque quas pariatur perferendis laudantium consequuntur autem qui debitis vitae corporis?</p>
+             <a href="#" target="blank"> <button class="but mt-3">Join us</button></a>
+              <a href="#" target="blank"> <button class="but mt-3">About us</button></a>
+            </div>
+             <div class="col-lg-5 col-xl-5 col-xxl-5 col-md-5 col-sm-12 col-12">
+              <img src="daniel-apodaca-WdoQio6HPVA-unsplash.jpg" class="img-fluid communityimage" loading="lazy">
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- registration form -->
+       <section class="registersec mt-3">
+        <h2 class="fw-bold text-center">Registration form</h2>
+        <div class="container py-5 regcontainer">
+          <div class="row py-5">
+            <div class="col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6">
+               <form  id="regform">
+         <div class="mb-3">
+    <label for="name1" class="form-label">Name:</label>
+    <input type="text" class="form-control" id="name1">
+   
+     </div>
+     <div class="mb-3">
+    <label for="em" class="form-label">Email:</label>
+    <input type="email" class="form-control" id="em">
+    </div>
+     <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="gender">
+    <label class="form-check-label" for="gender">Male:</label>
+     </div>
+      <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="gender1">
+    <label class="form-check-label" for="gender1">Female:</label>
+     </div>
+     <div class="mb-3">
+    <label for="phone" class="form-label">Telephone:</label>
+    <input type="text" class="form-control" id="phone">
+    </div>
+
+    <button type="submit" class="but" id="registerbtn">Register</button>
+    </form>
+            </div>
+      </div>
+        </div>
+
+         <!-- MOdal for Registration form -->
+<div class="modal fade" id="nita" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Submission Done!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <span class="tick"><i class="fa-regular fa-check"></i></span>
+          
+          </div>
+          <div class="modal-footer">
+            <button class="but" data-bs-dismiss="modal">X</button>
+          </div>
+        </div>
+      </div>
+    </div>
+       </section>
+
+       <!-- Animated Number section -->
+        <section class="mt-3 numbersec">
+          <h2 class="fw-bold text-center">Overall Summary</h2>
+          <div class="container py-5 numcont mt-2">
+            <div class="row py-5 ms-2">
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xxl-4 col-xl-4">
+                <h3 class="animatednum" data-number="1000">0</h3>
+                <h3>provided Body Results</h3>
+
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xxl-4 col-xl-4 ">
+                 <h3 class="animatednum" data-number="2000">0</h3>
+                <h3>provided Best Trusted Supplements</h3>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xxl-4 col-xl-4">
+                 <h3 class="animatednum" data-number="3000">0</h3>
+                <h3>provided Best BodyBuilders</h3>
+                </div>
+            </div>
+          </div>
+        </section>
+        <!-- customer reviews -->
+        <section class="mt-2">
+          <h2 class="text-center fw-bold">Our Reviews!</h2>
+          <div class="swiper mySwiper container py-5">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="daniel-apodaca-WdoQio6HPVA-unsplash.jpg" class="rounded-circle mx-auto" width="100" height="100" alt="Customer 1">
+        <div class="text-warning mt-2">
+          ★★★★☆
+        </div>
+        <p class="mt-2">"Arnold's Gym changed my life. Trainers are professional and the vibe is unmatched!"</p>
+        </div>
+      <div class="swiper-slide">
+         <img src="samuel-girven-VJ2s0c20qCo-unsplash.jpg" class="rounded-circle mx-auto" width="100" height="100" alt="Customer 1">
+        <div class="text-warning mt-2">
+          ★★★★☆
+        </div>
+        <p class="mt-2">"Arnold's Gym changed my life. Trainers are professional and the vibe is unmatched!"</p>
+      </div>
+      <div class="swiper-slide">
+         <img src="venti-views-j-Ou5YvdXFQ-unsplash.jpg" class="rounded-circle mx-auto" width="100" height="100" alt="Customer 1">
+        <div class="text-warning mt-2">
+          ★★★★☆
+        </div>
+        <p class="mt-2">"Arnold's Gym changed my life. Trainers are professional and the vibe is unmatched!"</p>
+      </div>
+      <div class="swiper-slide">
+         <img src="ryan-hoffman-wqbrxqv2Vaw-unsplash.jpg" class="rounded-circle mx-auto" width="100" height="100" alt="Customer 1">
+        <div class="text-warning mt-2">
+          ★★★★☆
+        </div>
+        <p class="mt-2">"Arnold's Gym changed my life. Trainers are professional and the vibe is unmatched!"</p>
+      </div>
+      <div class="swiper-slide">
+         <img src="keyner-ordonez-4an52q1ft2o-unsplash.jpg" class="rounded-circle mx-auto" width="100" height="100" alt="Customer 1">
+        <div class="text-warning mt-2">
+          ★★★★☆
+        </div>
+        <p class="mt-2">"Arnold's Gym changed my life. Trainers are professional and the vibe is unmatched!"</p>
+      </div>
+      
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+        </section>
+  <!-- Footer -->
+   <footer class="mt-5 bg-dark py-5">
+    <div class="container py-5">
+      <div class="row py-5">
+        <div class="col-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 col-lg-3">
+           <img src="daniel-apodaca-WdoQio6HPVA-unsplash.jpg" class="img-fluid rounded-circle footerimg">
+           <br> <br>
+           <h3 class="fw-bold">Arnold's Gym: Where We Meet Success!</h2>
+        </div>
+        <div class="col-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 col-lg-3">
+          <h3>Resources</h3>
+          <p>Applications</p>
+          <p>Documents</p>
+          <P>System</P>
+          
+        </div>
+        <div class="col-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 col-lg-3">
+            <h3>Pricing</h3>
+            <P>Gold package</P>
+             <P>Platinium package</P>
+              <P>Bronze Package</P>
+               <P>Ruby package</P>
+        </div>
+        <div class="col-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 col-lg-3">
+            <h3>FAQs</h3>
+            <p>Partners</p>
+            <P>careers</P>
+             <P>Press</P>
+        </div>
+
+      </div>
+      <div class="row py-5">
+         <div class="col-12 col-sm-12 col-md-6 col-xl-6 col-xxl-6 col-lg-6">
+           <h3>Partners</h3>
+           <P>Avatar Supplements</P>
+           <P>Nitro Whey</P>
+           <P>GNC Bulky Mass Gainers</P>
+           <P>Gulfam Chicken Shop</P>
+           <p>Faqar Egg Shop</p>
+         </div>
+          <div class="col-12 col-sm-12 col-md-6 col-xl-6 col-xxl-6 col-lg-6">
+            <h3>Social</h3>
+            <P>Instagram</P>
+             <P>Facebook</P>
+              <P>Youtube</P>
+               <P>X</P>
+                </div>
+                </div>
+                </div>
+                </footer>
+                 <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <!-- link for js -->
+     <script src="gym.js"></script>
+      </script>
+        <!-- Link for Javascript Swipper -->
+         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+         </body>
+         </html>
+
+      
+        
+  
+     
+     
+    
+     
+
+ 
+        
+        
+       
+
+
+
+  
+      
+      
+      
+      
+
+
+
+  
+   
+
+    

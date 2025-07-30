@@ -1,0 +1,225 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:rgba(255, 255, 255, 0.808);
+    --text-color:rgba(0, 0, 0, 0.616);
+    --border-color:rgb(138, 135, 135);
+    --but-color:rgb(201, 193, 193);
+    --dark-color1:rgb(12, 12, 12);
+    
+}
+body{
+    background-color:var(--primary-color);
+    font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2,p{
+    color:var(--text-color);
+    font-weight: bold;
+
+}
+h3{
+     color:white;
+
+    font-weight: 900;
+}
+/* navbar coding */
+.nav-link{
+    color:var(--text-color);
+    font-size: 1.54rem;
+    font-weight: 600;
+    transition: all 0.7s linear;
+}
+.nav-link:hover{
+    border-radius:40px;
+    background-color: darkorange;
+    transform:scale(0.5) ;
+}
+.navhead{
+    
+    border:1px solid var(--border-color);
+    box-shadow: 2px 2px 2px 1px var(--border-color);
+    
+}
+.navimage{
+    width:60px;
+    height:60px;
+    border-radius:15px;
+    box-shadow: 2px 2px 2px 1px var(--border-color);
+    transition: all 0.7s linear;
+}
+.navimage:hover{
+    filter:opacity(0.67);
+}
+/* Dark mode Button */
+.but{
+    color:var(--text-color);
+    background-color: var(--but-color);
+    padding:10px 15px;
+    border-radius: 20px;
+    transition: all 0.7s linear;
+    }
+.but:hover{
+    box-shadow: 2px 2px 2px 1px var(--border-color);
+    transform: scale(0.5);
+}
+/* offcanvas */
+.offcanvasimage{
+    width:70px;
+    height:70px;
+    border:1px solid var(--border-color);
+    
+}
+.offcanvas{
+    background-color: var(--primary-color);
+}
+/* carousel */
+.carousel img{
+    width:75%;
+    height:75vh;
+    object-fit: cover;
+    aspect-ratio: 3/4;
+}
+.carouselsec{
+     border:1px solid var(--border-color);
+     box-shadow:  2px 2px 2px 1px var(--border-color);
+}
+/* service Section Coding */
+.servicesec img{
+    width:200px;
+    height:200px;
+    aspect-ratio: 3/4;
+
+}
+.card:hover{
+     box-shadow:  2px 2px 2px 1px var(--border-color);
+
+}
+.cardhead{
+    color:black;
+}
+/* protein section */
+
+.proteincont{
+      background-image: url("keyner-ordonez-4an52q1ft2o-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:1px solid var(--border-color);
+    border-radius: 20px;
+     box-shadow:  2px 2px 2px 1px var(--border-color);
+
+}
+label{
+    color:var(--primary-color);
+    font-weight: bold;
+}
+#resultbox{
+    color:white;
+    font-size: 1.87rem;
+    font-weight: bold;
+}
+/* communitysection */
+.communityimage{
+    width:200px;
+    height:200px;
+    border:1px solid var(--border-color);
+    border-radius: 20px;
+    outline: none;
+    box-shadow: 2px 2px 2px 1px var(--border-color);
+    transition: all 0.7s linear;
+}
+.communityimage:hover{
+    filter:contrast(175%);
+}
+.communitysec{
+      border:1px solid var(--border-color);
+    box-shadow: 2px 2px 2px 1px var(--border-color);
+    }
+/* Registration */
+.regcontainer{
+    border:1px solid var(--border-color);
+    border-radius: 20px;
+    box-shadow:2px 2px 2px 1px var(--border-color);
+    background-image: url('samuel-girven-VJ2s0c20qCo-unsplash.jpg');
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Modal coding */
+.tick{
+    color:black;
+    font-size: 30px;
+    font-weight: 800;
+}
+.modal-title{
+     color:black;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+.modal{
+    background-color: whitesmoke;
+}
+/* Number section */
+
+    
+.numcont{
+     background-image: url('daniel-apodaca-WdoQio6HPVA-unsplash.jpg');
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* class for dark mode */
+.darkey{
+ 
+    background-color: var(--dark-color1);
+}
+
+   .darkey1 {
+  color: white !important;
+}
+
+/* swipper js code */
+.swiper {
+      width:850px;
+      height:850px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 200px;
+      height:200px;
+      object-fit: cover;
+      aspect-ratio: 3/4;
+      border:1px solid var(--border-color);
+       box-shadow: 2px 2px 2px 1px var(--border-color);
+    }
+    /* footer section coding */
+    .footerimg{
+        width:350px;
+        height:350px;
+          border:1px solid var(--border-color);
+       box-shadow: 2px 2px 2px 1px var(--border-color);
+    }
+    footer p{
+        color:white;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+
